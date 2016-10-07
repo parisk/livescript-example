@@ -1,7 +1,8 @@
 {
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "preinstall": "npm install -g livescript@^1.5.0"
+  },
   "dependencies": {
-    "livescript": "^1.5.0"
   }
 }
