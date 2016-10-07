@@ -1,8 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "preinstall": "npm install -g livescript@^1.5.0"
+    "preinstall": "npm install -g livescript@^1.5.0",
+    "start": "lsc app.ls"
   },
   "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
   }
 }
